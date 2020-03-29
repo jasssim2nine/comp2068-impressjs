@@ -109,10 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\app.css" />
+    <Content Include="css\reset.css" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Script\game.js" />
+    <Content Include="Script\lib\impress.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,7 +127,6 @@
     <Folder Include="asset\audio\" />
     <Folder Include="asset\fonts\" />
     <Folder Include="asset\images\" />
-    <Folder Include="Script\lib\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
