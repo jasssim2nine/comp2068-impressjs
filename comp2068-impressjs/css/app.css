@@ -70,3 +70,8 @@
 .slide q strong {
     white-space: nowrap;
 }
+div.menu{
+    border-top:2px solid black;
+    padding-top:25px;
+    text-align:center;
+}
